@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&display=swap');
+    .nf { font-family: 'Cormorant Garamond', serif; font-size: 110px; font-weight: 600; fill: none; stroke-width: 1; }
+    .nm { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; letter-spacing: 10px; }
+    .sb { font-family: 'Cormorant Garamond', serif; font-size: 11px; font-weight: 300; letter-spacing: 12px; }
+  </style>
+
+  <text class="nf" x="200" y="166" text-anchor="middle" stroke="#f0f0f0">N</text>
+  <text class="nf" x="320" y="166" text-anchor="middle" stroke="#f0f0f0" opacity="0.4">F</text>
+
+  <line x1="240" y1="38" x2="240" y2="186" stroke="#f0f0f0" stroke-width="0.5" stroke-dasharray="3 3"/>
+  <line x1="100" y1="196" x2="380" y2="196" stroke="#f0f0f0" stroke-width="0.5"/>
+  <line x1="100" y1="200" x2="380" y2="200" stroke="#f0f0f0" stroke-width="0.2"/>
+  <circle cx="100" cy="198" r="2" fill="#f0f0f0"/>
+  <circle cx="380" cy="198" r="2" fill="#f0f0f0"/>
+
+  <text class="nm" x="240" y="236" text-anchor="middle" fill="#f0f0f0">NICKY  FLORES</text>
+  <text class="sb" x="240" y="264" text-anchor="middle" fill="#aaaaaa">ILLUSTRATION  &amp;  INK  ART</text>
+</svg>
