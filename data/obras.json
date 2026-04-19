@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "titulo": "Amor Ciego",
+    "categoria": "ilustracion",
+    "imagen": "img/obras/amorciego.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "titulo": "Amor Eterno",
+    "categoria": "ilustracion",
+    "imagen": "img/obras/amoreterno.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "titulo": "Amor Eterno II",
+    "categoria": "ilustracion",
+    "imagen": "img/obras/amoreterno2.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "titulo": "Balloons",
+    "categoria": "ilustracion",
+    "imagen": "img/obras/Baloons.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "titulo": "Dragon",
+    "categoria": "tatuaje",
+    "imagen": "img/obras/Dragon.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "titulo": "Flores",
+    "categoria": "tatuaje",
+    "imagen": "img/obras/Flores.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 7,
+    "titulo": "Flores II",
+    "categoria": "tatuaje",
+    "imagen": "img/obras/Flores2.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 8,
+    "titulo": "Mano",
+    "categoria": "tatuaje",
+    "imagen": "img/obras/Mano.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "titulo": "Poker Face",
+    "categoria": "ilustracion",
+    "imagen": "img/obras/pokerface.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 10,
+    "titulo": "Psico",
+    "categoria": "ilustracion",
+    "imagen": "img/obras/psico.jpeg",
+    "disponible": true
+  },
+  {
+    "id": 11,
+    "titulo": "Sol y Luna",
+    "categoria": "tatuaje",
+    "imagen": "img/obras/solyluna.jpeg",
+    "disponible": true
+  }
+]
