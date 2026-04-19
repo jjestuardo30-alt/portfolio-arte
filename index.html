@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO básico -->
+  <title>Nicky Flores — Illustration & Ink Art</title>
+  <meta name="description" content="Portfolio de Nicky Flores, artista de ilustración en tinta. Diseños para tatuajes, logos e ilustraciones originales." />
+  <meta name="keywords" content="ilustración, tatuaje, diseño de logos, tinta, arte, Nicky Flores" />
+  <meta name="author" content="Nicky Flores" />
+
+  <!-- Open Graph — para que se vea bonito al compartir en redes -->
+  <meta property="og:title" content="Nicky Flores — Illustration & Ink Art" />
+  <meta property="og:description" content="Diseños para tatuajes, logos e ilustraciones originales en tinta." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/obras/solyluna.jpeg" />
+
+  <!-- Fuente tipográfica -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+  <!-- Scripts con defer — se descargan en paralelo y ejecutan cuando el HTML termina -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="js/galeria.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <!-- CURSOR PERSONALIZADO -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="nav" id="nav">
+    <a href="#inicio" class="nav-logo">
+      <img src="assets/logo-light.svg" alt="Nicky Flores" height="48" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button class="nav-menu" id="nav-menu" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Illustration & Ink Art</p>
+      <h1 class="hero-title">
+        El arte que<br />
+        <em>vive en tu piel</em>
+      </h1>
+      <p class="hero-desc">
+        Diseños originales en tinta para tatuajes, logos e ilustraciones.
+        Cada trazo cuenta una historia.
+      </p>
+      <a href="#galeria" class="btn-primary">Ver galería</a>
+    </div>
+    <div class="hero-image">
+      <img src="img/obras/solyluna.jpeg" alt="Sol y Luna — obra de Nicky Flores" />
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="galeria" id="galeria">
+    <div class="section-header">
+      <h2>Galería</h2>
+      <p>Explora el trabajo de Nicky</p>
+    </div>
+
+    <!-- Filtros -->
+    <div class="filtros" id="filtros">
+      <button class="filtro activo" data-filtro="todos">Todos</button>
+      <button class="filtro" data-filtro="tatuaje">Tatuajes</button>
+      <button class="filtro" data-filtro="ilustracion">Ilustraciones</button>
+    </div>
+
+    <!-- Grid — JavaScript lo llena automáticamente desde obras.json -->
+    <div class="galeria-grid" id="galeria-grid"></div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <div class="section-header">
+      <h2>Servicios</h2>
+      <p>¿Qué puedo crear para ti?</p>
+    </div>
+    <div class="servicios-grid">
+      <div class="servicio-card">
+        <span class="servicio-numero">01</span>
+        <h3>Diseño de tatuaje</h3>
+        <p>Diseños personalizados en tinta adaptados a tu visión y estilo.</p>
+      </div>
+      <div class="servicio-card">
+        <span class="servicio-numero">02</span>
+        <h3>Ilustración original</h3>
+        <p>Piezas únicas de arte para coleccionar, regalar o enmarcar.</p>
+      </div>
+      <div class="servicio-card">
+        <span class="servicio-numero">03</span>
+        <h3>Diseño de logo</h3>
+        <p>Identidad visual para marcas que quieren diferenciarse.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="section-header">
+      <h2>Hablemos</h2>
+      <p>¿Tienes un proyecto en mente?</p>
+    </div>
+    <div class="contacto-opciones">
+      <a href="https://wa.me/TUNUMERO?text=Hola%20Nicky,%20vi%20tu%20portfolio%20y%20me%20interesa%20un%20diseño"
+        class="contacto-btn whatsapp" target="_blank" rel="noopener">
+        WhatsApp
+      </a>
+      <a href="mailto:TUCORREO@gmail.com" class="contacto-btn email">
+        Correo
+      </a>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <img src="assets/logo-light.svg" alt="Nicky Flores" height="40" />
+    <p>© 2025 Nicky Flores. Todos los derechos reservados.</p>
+  </footer>
+
+  
+
+</body>
+</html>
