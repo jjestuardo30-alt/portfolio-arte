@@ -8,6 +8,7 @@ y solicitud de diseños personalizados (logos y tatuajes).
 
 ## Stack
 
+
 - HTML5 semántico
 - CSS3 con variables y animaciones
 - JavaScript vanilla
